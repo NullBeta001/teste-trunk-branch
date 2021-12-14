@@ -4,3 +4,4 @@ teste conlcuido com sucesso
 vinculaçao concluida
 comandos gravados e testados
 bye
+lembrei do comando: git status
