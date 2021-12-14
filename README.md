@@ -5,3 +5,4 @@ vinculaçao concluida
 comandos gravados e testados
 bye
 Verificando segundo teste de branch
+lembrei do comando: git status
