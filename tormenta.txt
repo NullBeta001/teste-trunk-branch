@@ -1,0 +1,7 @@
+O que é git remote add ...
+
+Como você provavelmente sabe, gité um sistema de controle de versão distribuído.
+A maioria das operações é feita localmente. Para se comunicar com o mundo exterior, gitusa o que é chamado remotes.
+Estes são repositórios diferentes do disco local em que você pode pushalterar (para que outras pessoas possam vê-lo) ou pullde (para que você possa obter outras alterações).
+O comando git remote add origin git@github.com:peter/first_app.gitcria um novo controle remoto chamado originlocalizado em git@github.com:peter/first_app.git.
+Depois de fazer isso, em seus comandos push, você pode pressionar para, em originvez de digitar o URL inteiro.

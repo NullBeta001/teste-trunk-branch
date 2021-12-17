@@ -1,0 +1,7 @@
+3.5 Branches no Git - Ramificações remotos
+
+Ramificações remotos
+
+Referências remotas são referências (ponteiros) em seus repositórios remotos, incluindo branches, tags e assim por diante.
+Você pode obter uma lista completa de referências remotas explicitamente com git ls-remote [remote]ou git remote show [remote]para branches remotos, bem como mais informações.
+No entanto, uma forma mais comum é utilizar como sucursais de rastreamento remoto.

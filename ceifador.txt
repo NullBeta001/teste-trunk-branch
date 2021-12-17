@@ -1,0 +1,4 @@
+O que é git push origin master
+
+Este é um comando que diz "envie as confirmações na ramificação local nomeada masterpara o controle remoto nomeado origin".
+Uma vez executado, todas as coisas que você sincronizou pela última vez com a origem serão enviadas para o repositório remoto e outras pessoas poderão vê-las lá.
