@@ -1,0 +1,19 @@
+from argparse import ArgumentParser
+from boto3 import Session
+from botocore.exceptions import BotoCoreError, ClientError
+
+cli = ArgumentParser(description="GetLexicon example")
+cli.add_argument("name", type=str, metavar="LEXICON_NAME")
+arguments = cli.parse_args()
+
+session = Session(profile_name="adminuser")
+polly = session.client("polly")
+
+print(u"Fetching {0}...".format(arguments.name))
+
+try:
+    response = polly.get_lexicon(Name=arguments.name)
+except (BotoCoreError, ClientError) as error:
+    cli.error(error)
+
+lexicon = response.get("Lexicon", {})
