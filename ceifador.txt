@@ -1,0 +1,6 @@
+Definição do Git
+
+Git é um sistema de versionamento de código comumente usado para projetos de desenvolvimento de software.
+Isso significa que ele trabalha como um intermediário entre um repositório local e um remoto (como por exemplo o GitHub).
+onde você pode controlar e controlar e administrar como alterações e atualizações do seu código. 
+Lembrando que Git e GitHub não são a mesma coisa !!

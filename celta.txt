@@ -1,0 +1,5 @@
+Git Bash:
+Todo esse fluxo descrito acima é manipulado através do Git Bash (caso você utilize Windows).
+Contextualizando, o Git foi feito para rodar em sistemas Unix, que não é o caso do Windows.
+Assim, foi criado o Git Bash, uma aplicação que emula um terminal Unix e permite que você desfrute dos comandos Git.
+O Git Bash já vem no pacote de instalação do Git para Windows.
