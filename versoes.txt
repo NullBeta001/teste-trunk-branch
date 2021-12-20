@@ -1,0 +1,5 @@
+Conflitos de mesclagem
+
+O Git pode lidar com conflitos de mesclagem, o que significa que não há problema em várias pessoas trabalharem no mesmo arquivo ao mesmo tempo.
+Isso abre o mundo do desenvolvimento de uma forma que não é possível com o controle de versão centralizado.
+Você tem acesso a todo o projeto e, se estiver trabalhando em um branch, pode fazer o que for necessário e saber que suas alterações estão seguras.
